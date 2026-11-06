@@ -1,7 +1,7 @@
 import posthog from 'posthog-js';
 import { cartTotal } from './src/checkout/cart.js';
 let items = [];
-const release = 'checkout-v1';
+const release = 'checkout-v2';
 const $=id=>document.getElementById(id);
 const log=text=>{$('log').textContent=`${new Date().toLocaleTimeString()}  ${text}\n`+$('log').textContent;};
 $('token').value=sessionStorage.getItem('posthog-demo-token')||'';
