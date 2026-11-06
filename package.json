@@ -1,1 +1,14 @@
-{"name":"photon-alert-demo","private":true,"type":"module","scripts":{"dev":"vite --host 127.0.0.1 --port 5173","build":"vite build"},"dependencies":{"posthog-js":"latest","vite":"latest"}}
+{
+  "name": "photon-alert-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5173",
+    "build": "vite build",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "posthog-js": "latest",
+    "vite": "latest"
+  }
+}
